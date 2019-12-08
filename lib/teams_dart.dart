@@ -13,7 +13,7 @@ List<List<String>> makeTeams(Lista lista, int numberOfTeams) {
     // We create a new variable because the length of the list will change with each iteration
     final numberOfPeople = copyL.list.length;
     for (var i = 0; i < (numberOfPeople / copyN).floor(); ++i) {
-      team.add(copyL.getRandom(true));
+      team.add(copyL.getRandom(deleteChosen: true));
     }
     teams.add(team);
     --copyN;

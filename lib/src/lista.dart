@@ -15,10 +15,10 @@ class Lista {
   
   /// Get a random person from the list of people
   /// 
-  /// If [del] is true the person chosen will also be deleted from the list
-  String getRandom([bool del = false]) {
+  /// If [deleteChosen] is true the person chosen will also be deleted from the list
+  String getRandom({bool deleteChosen = false}) {
     final index = Random().nextInt(_list.length);
-    if (del) return _list.removeAt(index);
+    if (deleteChosen) return _list.removeAt(index);
     return _list[index];
   }
 
