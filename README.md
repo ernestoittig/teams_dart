@@ -1,5 +1,6 @@
 Small app for sorting people into teams written in Dart.
 Original implementation at [ernestoittig/teams](https://github.com/ernestoittig/teams)
+[![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart)
 
 ### Dart VM
 
