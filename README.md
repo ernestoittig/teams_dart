@@ -14,7 +14,7 @@ If you want, you can specify the number of teams as the first command-line argum
 
 To install the executable:
 ```
-pub global activate --path .
+pub global activate --source path .
 ```
 
 Example output:
