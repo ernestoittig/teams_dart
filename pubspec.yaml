@@ -1,6 +1,6 @@
 name: teams_dart
 description: A project for randomly and evenly picking teams.
-version: 0.1.0
+version: 0.1.0+1
 repository: https://github.com/ernestoittig/teams_dart
 author: Ernesto Ittig <e.ittig@gmail.com>
 
